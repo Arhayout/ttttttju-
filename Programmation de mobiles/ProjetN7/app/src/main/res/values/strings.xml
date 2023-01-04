@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetN7</string>
+    <string name="client">Client Bluetooth</string>
+    <string name="serveur">Serveur Bluetooth</string>
+    <string name="clt_con">Client se connecte</string>
+    <string name="txt_clt">*Attente de la connection du serveur*</string>
+    <string name="serv_btn">serveur se connecte</string>
+    <string name="txt_serv">*Attente du client*</string>
+</resources>

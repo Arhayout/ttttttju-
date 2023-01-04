@@ -1,0 +1,7 @@
+| Attention, les pénalités sont calculées sur 6 points qui
+| seront ensuite ramenés sur 3.  Les pénalités affichées sont
+| donc le double des pénalités réelles.
+
+Compilation de Cercle.java : ERREUR !	(pénalité : 4)	(voir evaluations/penalites1/Cercle.java.log)
+JavaDoc automatique de Cercle : OK
+Total pénalités V1 : 4

@@ -1,0 +1,16 @@
+allumettes/Jouer.java:8: error: class Partie is public, should be declared in a file named Partie.java
+public class Partie {
+       ^
+./allumettes/Confiance.java:5: error: enum CONFIANCE is public, should be declared in a file named CONFIANCE.java
+    public enum CONFIANCE {
+           ^
+./allumettes/Arbitre.java:9: error: cannot access Confiance
+	private Confiance confiant;
+	        ^
+  bad source file: ./allumettes/Confiance.java
+    file does not contain class allumettes.Confiance
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+./allumettes/EnumerationConfiant.java:5: error: enum Confiance is public, should be declared in a file named Confiance.java
+    public enum Confiance {
+           ^
+4 errors

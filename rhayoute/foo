@@ -1,0 +1,35 @@
+[0;33marhayout@Minishell:~$ [0;27mtotal 7420
+-rwxrwxr-x 1 n7student n7student   17088 mai   27 21:23 a.out
+-rw-rw-r-- 1 n7student n7student 2231044 mai   28 12:31 Debate-2.pdf
+-rwxrwxr-x 1 n7student n7student   32040 mai   31 17:21 executable
+-rw-r----- 1 n7student n7student      16 mai   27 20:46 f1
+-rw-r----- 1 n7student n7student      16 mai   31 14:01 f2
+-rw-rw-r-- 1 n7student n7student      16 mai   31 14:05 f3
+-rw-r----- 1 n7student n7student      52 mai   31 14:33 F5
+-rw-r----- 1 n7student n7student      16 mai   31 14:37 F7
+-rw-rw-r-- 1 n7student n7student      52 mai   31 14:51 f8
+-rw-rw-r-- 1 n7student n7student       2 mai   31 14:48 f9
+-rw-r----- 1 n7student n7student      72 mai   31 17:22 FF
+-rw-r----- 1 n7student n7student      36 mai   31 17:25 foo
+-rw-rw-r-- 1 n7student n7student    6078 mai   27 23:31 job.c
+-rwxr-xr-x 1 n7student n7student    3009 mai    7  2021 LisezMoi.html
+-rwxr-xr-x 1 n7student n7student    2165 mai    7  2021 LisezMoi.md
+-rw-rw-r-- 1 n7student n7student       8 mai   27 21:54 lulu.c
+-rw-rw-r-- 1 n7student n7student    2768 mai   26 09:22 main.c
+-rw-rw-r-- 1 n7student n7student    5584 mai   31 17:21 MiniShell.c
+-rw-rw-r-- 1 n7student n7student    3901 mai   27 14:00 Q10.c
+-rw-rw-r-- 1 n7student n7student    2233 mai   30 11:36 Q11.c
+-rw-rw-r-- 1 n7student n7student    6620 mai   27 21:01 Q11_v2.c
+-rw-rw-r-- 1 n7student n7student    1312 mai   26 10:26 Q1.c
+-rw-rw-r-- 1 n7student n7student    1565 mai   26 13:06 Q3.c
+-rw-rw-r-- 1 n7student n7student    2078 mai   26 13:06 Q4.c
+-rw-rw-r-- 1 n7student n7student    2106 mai   26 13:16 Q5.c
+-rw-rw-r-- 1 n7student n7student    3352 mai   27 23:11 Q6.c
+-rw-rw-r-- 1 n7student n7student    4643 mai   27 23:30 Q7+Q8.c
+-rw-rw-r-- 1 n7student n7student    3734 mai   31 15:42 Q9.c
+-rw-rw-r-- 1 n7student n7student  509616 mai   27 23:39 Rapport final projet mini-shell.pdf
+-rw-r--r-- 1 n7student n7student    5329 mai   27 22:05 readcmd.c
+-rwxr-xr-x 1 n7student n7student    2155 avril 29  2020 readcmd.h
+-rw-rw-r-- 1 n7student n7student 1904696 mai   28 22:45 TD1-Ethernet-Solution.pdf
+-rw-rw-r-- 1 n7student n7student 2753270 mai   28 23:21 TD2-TR-WiFi-Solution.pdf
+-rw-rw-r-- 1 n7student n7student       4 mai   27 21:54 toto.c

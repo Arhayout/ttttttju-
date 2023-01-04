@@ -1,0 +1,16 @@
++ Correction sur les pénalités automatiques : 200
+
+Les outils de détection automatique de plagiat ont trouvé que ton rendu était
+très similaire au rendu d'un autre étudiant de l'année dernière (96% de
+similitude).
+
+Il s'agit d'une tentative manifeste de triche. J'ai remonté l'incident au
+responsable de l'UE (Xavier Crégut). La conséquence directe de cette faute est
+un 0 au projet, sans possibilité de second rendu.
+
+Bien sûr, cela ne t'empêche pas de t'atteler au reste de l'UE sérieusement (le
+projet court ne compte que pour 30% de la note il me semble; donc avec un projet
+long et un partiel corrects, tu devrais valider l'UE).
+
+
+

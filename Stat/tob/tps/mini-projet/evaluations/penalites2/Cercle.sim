@@ -1,0 +1,50 @@
+File Cercle.java: 579 tokens, 176 lines
+Total input: 1 file (1 new, 0 old), 579 tokens
+
+Cercle.java: line 97-113 [37]
+Cercle.java: line 113-130
+< 		return this.couleur;
+< 	}
+< 
+< 	/** Changer la couleur du cercle.
+< 	  * @param nouvelleCouleur nouvelle couleur
+< 	  */
+< 	public void setCouleur(Color color ) {
+< 		assert color != null; 
+< 		this.couleur = color;
+< 	}
+< 	/** Changer le rayon du cercle .
+< 	  * @param r nouveau rayon.
+< 	  */
+<      //@ requires r > 0;
+< 	public void setRayon(double r) {
+< 		assert r > 0;
+< 		this.rayon= r;
+---
+> 		this.rayon= r;
+> 	}
+>      
+>     /** Changer le centre du cercle .
+> 	  * @param C le nouveau.
+> 	  */
+> 	public void setCentre(Point color ) {
+> 		assert color != null;
+> 		this.centre=color;
+> 	}
+>      
+>      /** Changer le diametre du cercle .
+> 	  * @param d nouveau rayon.
+> 	  */
+>        //@ requires d > 0;
+> 	public void setDiametre(double d) {
+> 		assert d > 0;
+> 		this.rayon= d / 2;
+
+Cercle.java: line 36-37 [30]
+Cercle.java: line 60-61
+< 		assert(point1!=null && point2!=null);
+<                 assert(point1.getX() != point2.getX() || point1.getY()!=point2.getY());
+---
+>         	assert(centre!=null && point!=null && centre!= point);
+>         	assert(centre.getX() != point.getX() || centre.getY()!=point.getY());
+

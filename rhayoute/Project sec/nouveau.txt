@@ -1,0 +1,6 @@
+BONJOUR
+Ce fichier est un fichier pour tester la copie du tp. 
+A Z E R T Y U I O P 
+10 20 30 40 50 60 70 80 90 100
+
+

@@ -1,0 +1,30 @@
+--- retour1.txt ----------------------------------------------------------------
+
+1. Prenez connaissance de evaluation1.txt
+
+2. Prenez connaissance des remarques générales sur Moodle
+
+3. Commentaires sur les réponses aux questions :
+- peut-être expliquer pourquoi c'est une agrégation ?
+- c'est un peu léger comme explication; qu'est-ce que cet autre point ? Un point
+au hasard ?
+
+4. Commentaires additionnels sur le rendu :
+- attention ta classe ne compile pas; il y a un "private" ligne 50 qui l'en
+empêche...
+- attention, une fois ta classe corrigée, je pense qu'un certain nombre de
+tests ne passent pas; je te rappelle que des tests automatiques sont lancés
+régulièrement (les résultats sont commit sur ton SVN).
+- "la valeur de cette distance est appelée *cercle*" => nope, je crois que ça
+s'appelle plutôt rayon ;)
+- les noms de variable et d'attributs (non statiques, non finaux) commencent
+généralement par une minuscule; par ex : Point *p* (minuscule)
+- le commentaire pour les attributs n'est pas en Javadoc !
+- je trouve l'ordre des méthodes un peu confusant; c'est du chipotage, mais en
+général on essaye de grouper les get puis les set, ou les get/set ensemble, puis
+on met les autres méthodes à la suite
+- peut-être commenter un peu plus la classe CercleTest; par exemple, rappeler
+les exigences tester ?
+
+
+--------------------------------------------------------------------------------

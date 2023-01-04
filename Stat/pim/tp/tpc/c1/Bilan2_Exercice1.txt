@@ -1,0 +1,34 @@
+Indiquer vos réponses aux questions de l'exercice 1 du Bilan 2 ci-après : 
+
+[B1.1] Quelle est la portée de chaque variable déclarée ? Pour chaque variable, on donnera le numéro de ligne où commence et se termine sa portée.
+
+
+la portée de chaque variable se limite au bloc où elle est  déclarée.
+la variable	         type            sa portée
+n			         entier		     8..36
+p			         pointeur        9..36
+a			      	 entier          12..18
+r                    flottant double 29..36
+
+[B1.2] Y a-t-il un exemple de masquage de variable dans ce programme ?
+
+oui,la variable n
+
+
+[B1.3] Peut-on savoir ce que devrait afficher l’exécution de ce programme ?
+
+oui ,le résultat c'est l'adresse mémoire ou se trouve a=5
+
+
+[B1.4] Même s’il compile sans erreur, ce programme est faux. Pourquoi ?
+
+il y a des affichages qui ne servent  absolument à rien
+
+
+[B1.5] La valeur de `p` change-t-elle après l’initialisation de la ligne 14 ?
+
+
+oui
+
+[B1.6] Que se passerait-il si on modifiait `*p` après la ligne 19 ?
+il va pointer sur une autre adresse mémoire 

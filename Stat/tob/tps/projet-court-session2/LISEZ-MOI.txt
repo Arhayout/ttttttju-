@@ -1,0 +1,32 @@
+Nom       : 
+Prénom    : 
+Groupe TP : 
+
+=====[ Explications ]===========================================================
+
+Donner ici les explications supplémentaires utiles à la compréhension du
+travail rendu.
+
+-Ce projet consiste à créer une caisse qui gère les tickets dans un supermarché et implanter un exemple pratique.
+
+
+-Pour que la caisse connait les articles il faut une base de références pour les articles :BaseArticles.Mais d'abord il faut implenter l'interface Article en deux classes:ArticleSimple et AticleCompose  qui font la distinction entre les articles avec un seul élément et les articles avec plusieurs élément commun associe à une élément de base de type Articles simple.
+
+
+-Les méthodes supprimer et articledeBaseArticles lèveront une exception non contrô-lée par le compilateur appelée supermarche.articles.ReferenceInconnueExceptionsi la référence n’est pas présente dans la base.Cette exception est définit dans ReferenceInconnueException qui hérite de RunTimeException pour quelle soit non controlée par le compilateur.
+-j'ai ajouter une méthode getArticles pour  faire le test sur la méthodes supprimer en testant l'appartenance
+
+-Les tests de ArticlesSimple , ArticleCompose  et BaseArticles sont simples.
+
+
+-La classe  Caddie qui hérite de la classe   Iterable<String> pour qu'on peut faire de boucles for et while sur l'objet Caddie et qui est modélisée par un tableau dynamique 
+
+
+-la classe Caisse va être caractérisé par les 4 attributs suivants:
+          private long total: Total du ticket
+	      private BaseArticles articles:La base d'articles sur laquelle la caisse sera basé pour traiter les articles
+	      private int numeroticket:Il représente l'ordre du ticket, par exemple numeroticket pour l'exemple fourni au sujet est 1.
+          private List<String> refrencesNonExistants: Chaque caisse doit être caractérisé par une liste des réferences qui n'existent pas dans la base des articles
+
+
+-pour ExempleCaisse,il faut remplir une base d'articles et puis scanner les articles et affichier le ticket

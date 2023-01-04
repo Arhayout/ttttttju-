@@ -1,0 +1,38 @@
+Date de l'évaluation : dim. 21 févr. 2021 00:10:55 CET
+
+Compilation de Cercle.java : OK.
+
+Types d'erreurs checkstyle : 7	(voir evaluations/evaluation1/Cercle.checkstyle)
+
+Résultat de recherche de similitudes sur Cercle.java dans evaluations/evaluation1/Cercle.sim
+
+JavaDoc automatique de Cercle : 	(voir evaluations/evaluation1/Cercle.javadoc)
+
+Un constructeur devrait appeler l'autre.
+
+Test SujetCercleTest : OK (14 tests)	(voir evaluations/evaluation1/SujetCercleTest.log)
+Test RobustesseCercleTest : Tests run: 20,  Failures: 3	(voir evaluations/evaluation1/RobustesseCercleTest.log)
+    1) testerE14a(RobustesseCercleTest)
+        Exception: Unexpected exception, expected<AssertionError> but was<NoSuchMethodError>
+    2) testerE14b(RobustesseCercleTest)
+        Exception: Unexpected exception, expected<AssertionError> but was<NoSuchMethodError>
+    3) testerE14c(RobustesseCercleTest)
+        Exception: Unexpected exception, expected<AssertionError> but was<NoSuchMethodError>
+
+Test FormeCercleTest : Tests run: 12,  Failures: 1	(voir evaluations/evaluation1/FormeCercleTest.log)
+    1) testerE14(FormeCercleTest)
+        AssertionError: La méthode creerCercle(Point, Point) n'existe pas !
+
+Test Forme2CercleTest : Tests run: 9,  Failures: 3	(voir evaluations/evaluation1/Forme2CercleTest.log)
+    1) testConstructeurPointPointSetX(Forme2CercleTest)
+        NullPointerException
+    2) testConstructeurPointPointDistance(Forme2CercleTest)
+        NullPointerException
+    3) testCreerCercleDistance(Forme2CercleTest)
+        NoSuchMethodError: 'Cercle Cercle.creerCercle(Point, Point)'
+
+
+ComplementsCercleTest : non modifiée (ok)
+
+Compilation de CercleTest.java : ERREUR !	(voir evaluations/evaluation1/CercleTest.java.log)
+CercleTest.java ne compile pas !!!

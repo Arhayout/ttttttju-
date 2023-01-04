@@ -1,0 +1,41 @@
+Nom       :rhayoute
+Prénom    : abdelmalek
+Groupe TP : M
+
+
+Consigne :  Ci-dessous, répondre à la place des « ... ».
+
+
+=====[ Temps ]==================================================================
+
+Temps consacré au projet pour rendre la V1 : 2 heures 30 minutes
+Temps consacré au projet pour rendre la V2 : 15h heures
+Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
+Bien sûr, Les temps renseignés ici ne sont pas pris en compte dans la notation.
+
+
+=====[ Questions ]==============================================================
+
+Indiquer la relation UML entre Cercle et le Point centre du cercle.
+-------------------------------------------------------------------
+
+La relation entre la classe Cercle et la classe point est une relation d'association, 
+car on peut agir sur une classe independamment de l'autre.
+pour ça  on définit le constructeur Cercle en utilisant une copie de point centre. 
+Dans ce cas,si on supprime le point, le cercle reste.
+
+
+
+Comment est réalisée l'exigence E18 ?
+----------------------------
+Dans l'exigence E18 on doit limiter la manipultaion de la classe Cercle en
+des méthodes prédifinies.C'est pour cela qu'on a crée une copie de centre. 
+
+
+
+=====[ Explications ]===========================================================
+
+(Facultatif) Donner ici les explications supplémentaires utiles à la
+compréhension du travail rendu.
+
+...

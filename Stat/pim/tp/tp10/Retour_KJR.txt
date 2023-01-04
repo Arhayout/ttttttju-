@@ -1,0 +1,11 @@
+- lca_sujet ne compile pas
+- lca.adb compile avec un warning 'lca.adb:70:17: warning: unreachable code'
+- Attention à l'indentation : allez dans GPS, menu Edit/Preference. Dans le menu, selectionner Editor / Ada. Dans Auto indentation: Choisir 'Simple'.
+- Supprimer les 'TODO'
+- En récursif, il ne faut pas utiliser de pointeur copie de la lca : directement sda (dans enregistrer, ne pas definir sda0, mais directement travailler avec sda. C'est uniquement en itératif qu'il faut un pointeur de type curseur.
+- Inutile d'utiliser cle_presente : parcours supplémentaire de la liste. 
+- A revoir Enregistrer, ne peut pas marcher ainsi. Pas de boucle dans un programme recursif.
+- Cle_presente : PAS DE BOUCLE DANS UNE RECURSION ou PAS DE RECURSION DANS UN BOUCLE.
+- La_Donnee : IDEM que cle_presente.
+- Vider : Il faut desallouer toutes les cellules : parcorus avec desallocation de chaque cellule.
+ 

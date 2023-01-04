@@ -1,0 +1,48 @@
+Date de l'évaluation : dim. 27 juin 2021 19:56:37 CEST
+
+Compilation de Cercle.java : OK.
+
+Types d'erreurs checkstyle : 0	(voir evaluations/penalites2/Cercle.checkstyle)
+
+Résultat de recherche de similitudes sur Cercle.java dans evaluations/penalites2/Cercle.sim
+
+JavaDoc automatique de Cercle : ok	(voir evaluations/penalites2/Cercle.javadoc)
+
+Test SujetCercleTest : OK (16 tests)	(voir evaluations/penalites2/SujetCercleTest.log)
+Test RobustesseCercleTest : Tests run: 20,  Failures: 3	(pénalité : 3)	(voir evaluations/penalites2/RobustesseCercleTest.log)
+    1) testerE14a(RobustesseCercleTest)
+        Exception: Unexpected exception, expected<AssertionError> but was<NoSuchMethodError>
+    2) testerE14b(RobustesseCercleTest)
+        Exception: Unexpected exception, expected<AssertionError> but was<NoSuchMethodError>
+    3) testerE14c(RobustesseCercleTest)
+        Exception: Unexpected exception, expected<AssertionError> but was<NoSuchMethodError>
+
+Test AssertionsConstructeursCercleTest : OK (2 tests)	(voir evaluations/penalites2/AssertionsConstructeursCercleTest.log)
+Test FormeCercleTest : Tests run: 12,  Failures: 1	(pénalité : 1)	(voir evaluations/penalites2/FormeCercleTest.log)
+    1) testerE14(FormeCercleTest)
+        AssertionError: La méthode creerCercle(Point, Point) n'existe pas !
+
+Test Forme2CercleTest : Tests run: 9,  Failures: 1	(pénalité : 1)	(voir evaluations/penalites2/Forme2CercleTest.log)
+    1) testCreerCercleDistance(Forme2CercleTest)
+        NoSuchMethodError: 'Cercle Cercle.creerCercle(Point, Point)'
+
+Test Complements2CercleTest : Tests run: 3,  Failures: 2	(pénalité : 2)	(voir evaluations/penalites2/Complements2CercleTest.log)
+    1) testerE18b(Complements2CercleTest)
+        AssertionError: E18 : setCentre ne respecte pas E18 (x) expected:<1.0> but was:<11.0>
+    2) testerE11couleurPoint(Complements2CercleTest)
+        AssertionError: E11 : Le centre n'a pas la même couleur que le point passé en paramètre. expected:<java.awt.Color[r=255,g=0,b=255]> but was:<java.awt.Color[r=0,g=255,b=0]>
+
+Test ConstructeursCercleTest : Tests run: 5,  Failures: 1	(pénalité : 1)	(voir evaluations/penalites2/ConstructeursCercleTest.log)
+    1) testerE14(ConstructeursCercleTest)
+        NoSuchMethodError: 'Cercle Cercle.creerCercle(Point, Point)'
+
+
+ComplementsCercleTest : modifiée... on l'utilise donc...
+Compilation de ComplementsCercleTest.java : OK.
+Test ComplementsCercleTest : OK (2 tests)	(voir evaluations/penalites2/ComplementsCercleTest.log)
+
+Compilation de CercleTest.java : OK.
+Test CercleTest : OK (3 tests)	(voir evaluations/penalites2/CercleTest.log)
+Test de CercleTest avec CercleMini : ERREUR : CercleTest aurait dû réussir !	(pénalité : 6)	(voir evaluations/penalites2/CercleMini.log pour les erreurs signalées)
+CercleTest échoue sur CercleMini : les mutants ne sont pas testés
+Total pénalités : 14

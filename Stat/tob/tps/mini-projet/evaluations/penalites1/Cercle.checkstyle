@@ -1,0 +1,6 @@
+Début de la vérification...
+[ERROR] Cercle.java:41:39: Balise Javadoc @param manquante pour 'P1'. [JavadocMethod]
+[ERROR] Cercle.java:103: Balise Javadoc @return manquante. [JavadocMethod]
+[ERROR] Cercle.java:110: Balise Javadoc @return manquante. [JavadocMethod]
+[ERROR] Cercle.java:117: Balise Javadoc @return manquante. [JavadocMethod]
+Vérification terminée.

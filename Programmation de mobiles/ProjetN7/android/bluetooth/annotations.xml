@@ -1,0 +1,8 @@
+<root>
+    <item
+        name='android.bluetooth.BluetoothAdapter android.bluetooth.BluetoothServerSocket listenUsingRfcommWithServiceRecord(java.lang.String, java.util.UUID)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;null,null -&gt; null&quot;" />
+        </annotation>
+    </item>
+</root>

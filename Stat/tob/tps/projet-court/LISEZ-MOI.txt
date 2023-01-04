@@ -1,0 +1,80 @@
+Nom       : RHAYOUTE
+Prénom    : ABDELMALEK
+Groupe TP : M
+
+Les « ... » indiquent les endroits à compléter.
+
+=====[ Temps passé ]============================================================
+
+Ces informations de temps sont demandées à titre indicatif et ne sont pas
+prises en compte dans la notation du projet.
+
+Toutes les durées sont à saisir en heures.  Par exemple, si vous avez passé
+1h45, il faudra indiquer 1.75.  Si vous avez passé 2h30, il faudra indiquer
+2.5.
+
+* Temps passé sur la V1 (en h) : 8h
+* Temps passé sur la V2 (en h) : ...
+
+
+=====[ Questions ]==============================================================
+
+--------------------------------------------------------------------------------
+Pourquoi l'exception OperationInterditeException ne peut pas être définie
+comme vérifiée par le compilateur ?
+--------------------------------------------------------------------------------
+
+Une exception est vérifie par le compilateur si elle est ni RuntimeException
+ni ERROR. Par contre, L'exception OperationInterditeException hérite de
+RuntimeException. Donc cette exception ne peut pas être définie comme vérifiée 
+par le compilateur.
+
+--------------------------------------------------------------------------------
+Expliquer ce qu'il faut faire pour ajouter un nouveau niveau de jeu, par
+exemple la stratégie lente (C13).  Pour plus de précision, on numérotera
+les étapes à faire.
+--------------------------------------------------------------------------------
+
+Pour ajouter un nouveau niveau de jeu : Exemple de la stratégie lente.
+
+1. J'ai définié une interface stratégie pour me permettre de définir différentes
+   stratégies.
+2. J'ai ajouté l'implantation de l'interface stratégie pour la stratégie 
+   lente.
+3. J'ai ajouté le choix de jouer par la stratégie lente dans la méthode 
+   getStratégie dans la classe partie. 
+   
+--------------------------------------------------------------------------------
+Expliquer ce qui permet, dans votre conception, de changer dynamiquement
+(en cours d'exécution du programme) la stratégie d'un joueur (C14).
+--------------------------------------------------------------------------------
+
+ On peut ajouter un attribut modifierStrategie dans la classe Arbitre et pour 
+ l'ajouter en respectant la diagramme de classe en lui associé une méthode
+ setModifierStrategie, qui se base sur une énumération {Modifier, NonModifier}.
+ En faisant une boucle while qui donne une question qu'on pose au joueur
+ "Est-ce que vous voulez changer la strategie" si la réponse est oui, on fait 
+ setModifierStrategie(ENUM.Modifier) et on lui demande  de nous donner la 
+ nouvelle strategie qu'il veut jouer par. Après on fait le meme traitement qu'on
+ a fait getStrategie, pour continuer le jeu avec la nouvelle stratégie.sinon 
+ on fait setModifierStrategie(ENUM.NonModifier) on continue le jeu par la meme 
+ strategie.
+
+=====[ Explications ]===========================================================
+
+--------------------------------------------------------------------------------
+Donner ici les explications supplémentaires utiles à la compréhension du
+travail rendu.
+--------------------------------------------------------------------------------
+ 
+J'ai ajouté des tests pour les autres stratégies à part la stratégie rapide 
+pour m'assurer qu'il n'y avait pas de fuites dans mes programmes, ou des cas 
+particuliers non traités. D'autres part, pour savoir si un tricheur est confiant
+ou pas, j'ai ajouté un attribut confiant dans la classe arbitre en faisant une 
+autre classe enumération, qui contient deux éléments CONFIANT et MEFIANT, et 
+pour respecter le diagramme de classe, j'ai ajouté une méthode qui s'appelle 
+setConfiant. Aussi, j'ai ajouté une méthode qui s'appelle affichageUsageConfiant
+dans la classe Partie qui affiche des indications sur la manière d'exécuter 
+cette classe au cas ou on a un mode confiant.
+ 
+--------------------------------------------------------------------------------

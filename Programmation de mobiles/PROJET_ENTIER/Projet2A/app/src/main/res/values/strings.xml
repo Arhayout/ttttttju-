@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projet2A</string>
+    <string name="project_name">Projet Android 2SN-R</string>
+    <string name="mainbt_txt">Monitor</string>
+    <string name="owner_name">EL HASNAOUI Oualid</string>
+    <string name="ready_label_clic">Ready!</string>
+    <string name="monitor_bt_txt">Monitor</string>
+    <string name="rss">RSS:</string>
+</resources>

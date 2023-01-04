@@ -1,0 +1,88 @@
+Cercle.java:50: error: illegal start of expression
+        private Point C = new Point(this.P.getX(),this.P.getY());
+        ^
+Cercle.java:51: error: illegal start of type
+		return C;
+		^
+Cercle.java:51: error: <identifier> expected
+		return C;
+		        ^
+Cercle.java:57: error: class, interface, or enum expected
+	public double getDiametre() {
+	       ^
+Cercle.java:59: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:65: error: class, interface, or enum expected
+	public double getRayon() {
+	       ^
+Cercle.java:67: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:73: error: class, interface, or enum expected
+	public void translater(double dx, double dy) {
+	       ^
+Cercle.java:75: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:81: error: class, interface, or enum expected
+	public void setRayon(double r) {
+	       ^
+Cercle.java:83: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:88: error: class, interface, or enum expected
+	public void setCentre(Point C ) {
+	       ^
+Cercle.java:90: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:96: error: class, interface, or enum expected
+	public void setDiametre(double d) {
+	       ^
+Cercle.java:98: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:103: error: class, interface, or enum expected
+    public boolean contient(Point P){
+           ^
+Cercle.java:105: error: class, interface, or enum expected
+    }
+    ^
+Cercle.java:110: error: class, interface, or enum expected
+    public double perimetre(){
+           ^
+Cercle.java:112: error: class, interface, or enum expected
+    }
+    ^
+Cercle.java:117: error: class, interface, or enum expected
+    public double aire() {
+           ^
+Cercle.java:119: error: class, interface, or enum expected
+    }
+    ^
+Cercle.java:120: error: class, interface, or enum expected
+	public String toString(){
+	       ^
+Cercle.java:122: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:126: error: class, interface, or enum expected
+	public void afficher() {
+	       ^
+Cercle.java:128: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:135: error: class, interface, or enum expected
+	public Color getCouleur() {
+	       ^
+Cercle.java:137: error: class, interface, or enum expected
+	}
+	^
+Cercle.java:142: error: class, interface, or enum expected
+	public void setCouleur(Color nouvelleCouleur) {
+	       ^
+Cercle.java:144: error: class, interface, or enum expected
+	}
+	^
+29 errors

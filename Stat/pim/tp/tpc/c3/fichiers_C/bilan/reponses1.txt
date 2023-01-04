@@ -1,0 +1,33 @@
+Dans ce fichier `reponses1.txt`, 
+
+
+[Question 1.1] Indiquer 
+- comment obtenir le ou les exécutables par compilation séparée.
+c99 -Wextra -pedantic -c file.c
+c99 -Wextra -pedantic -c test_file.c
+c99 file.o test_file.o -o test_file
+
+c99 -Wextra -pedantic -c file.c
+c99 -Wextra -pedantic -c exemple_file.c
+c99 file.o enemple_file.o -o exemple_file
+
+
+- les dépendances entre les fichiers qui constituent l’application.
+test_file: file.o test_file.o
+
+exemple_file: file.o exemple_file.o
+
+- le rôle de la règle `.PHONY` dans Makefile.
+ Règles qui ne produit pas de fichiers 
+On peut préciser à make que la règle clean ne produit pas un fichier dénommé clean en ajoutant la ligne à la fin du Makefile :
+		.PHONY: clean
+Par conséquent, Make ne vérifie pas si le fichier propre existe avant d'exécuter la règle. Ils se comportent comme s'ils étaient en retard. Les fichiers PHONY ne sont jamais à jour
+
+[Question 1.5] Indiquer
+- Quel est le sous-programme non-visible des autres modules et défini dans le module File.
+
+
+- Que se passe-t-il si on enlève le mot-clé static à la compilation ?  
+ 
+
+- Quel est le risque de ne pas le mettre ?

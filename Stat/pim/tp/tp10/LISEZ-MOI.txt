@@ -1,0 +1,74 @@
+% Compte-rendu minimal du mini-projet SDA : LCA et TH
+% Auteur : rhayoute abdelmalek
+% Groupe de TP :m1
+
+
+**Consigne :** Vous devez écrire vos réponse à la place des ... en laissant
+une ligne vide avant et deux après votre réponse.
+
+**Remarque :** Ce document utilise le langage Markdown. On peut en engendrer
+une version PDF en faisant par exemple :
+
+~~~
+pandoc --toc -N -o LISEZ-MOI.pdf LISEZ-MOI.txt
+~~~
+
+
+# Exercice 1
+
+## Question 1.4
+
+**Indiquer les inconvénients/avantages d'une implantation par listes chaînées
+d'une SDA.**
+
+avantages:
+permettre de représenter un ensemble de données d'une facon structurée et liée dans la mémoire 
+permettre de manupiler facilement le sda à travers l'dresses mémoire
+permettre d'engregistrer facilement dans n'importe quel ordre   
+
+inconvénients:
+l'accès à une donnée se fait en passant par tous les cases de la chaines avant la case ou se trouve la donnée => KJR : OK.
+la suppression d'une donnée  ou plusieurs laissent des cases mémoires vides non utilisables dans une chaine jusqu'a la libération de toutes les cases enchainées => KJR : non c'est faux. La suppression de donnée doit passer aussi par la libération de la mémoire. 
+
+
+
+# Évaluation expérimentale.
+
+## Performance comparée de LCA et TH
+l'utilsation de TH est plus robuste que celle de LCA
+=> ?? Robuste ?
+
+## Qualité du générateur aléatoire
+
+Indiquer les conclusions quant à la qualité du générateur aléatoire.
+
+
+
+
+
+# Principales difficultés rencontrées
+
+Indiquer ici les principales difficultés rencontrées lors de la réalisation de
+ce projet et comment elles ont été surmontées ou contournéeS.
+
+difficile à interprèter les erreurs affichiées surtour celle liées aux post-conditions.pour remédier il  fallait essayer en changeant la construction d'une fonction ou une procédure.
+
+
+
+# Informations complémentaires
+
+Indiquer ici les informations qui pourraient aider à la compréhension du
+travail réalisé.
+
+Cette partie peut être vide.
+
+...
+
+
+
+# Bilan personnel
+
+Quel bilan personnel tirez vous de ce mini-projet ?
+j'ai assimilé pas mal de notions non compréhensible au moments de cours et de td
+...
+
